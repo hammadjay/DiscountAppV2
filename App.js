@@ -161,7 +161,7 @@ const HistoryScreen = ({ navigation, route }) => {
   const [isEditable, setEditable] = useState(false);
   const [historyList, setHistory] = useState(historyArray);
 
-  if(historyList.length != 0){
+  
     useEffect(()=>{
 
       navigation.setOptions({
@@ -184,7 +184,6 @@ const HistoryScreen = ({ navigation, route }) => {
         ),
       });
     })
-  }
   
 
   const removeItem = (key) => {
