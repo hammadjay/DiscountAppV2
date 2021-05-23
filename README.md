@@ -2,6 +2,7 @@
 
 This is a discount app which allows users to calculate discounts and tells users how much they will save and what is the price after discount
 user can also save his calculations and can also delete them later
+
 MAIN SCREEN:
 
 
